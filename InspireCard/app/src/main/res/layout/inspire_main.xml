@@ -1,0 +1,58 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:scaleType="fitXY"
+        android:src="@drawable/dream"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"/>
+
+    <TextView
+        android:text="Dream It!"
+        android:textStyle="bold"
+        android:textSize="37sp"
+        android:background="#00E676"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"/>
+
+   <ImageView
+        android:scaleType="fitXY"
+        android:src="@drawable/believe"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"/>
+
+    <TextView
+        android:text="Believe It!"
+        android:textStyle="bold"
+        android:textSize="37sp"
+        android:background="#B388FF"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"/>
+
+    <ImageView
+        android:scaleType="fitXY"
+        android:src="@drawable/achieve"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"/>
+
+   <TextView
+        android:textStyle="bold"
+        android:textSize="37sp"
+        android:text="Achieve It!"
+        android:background="#2196F3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"/>
+
+</LinearLayout>
